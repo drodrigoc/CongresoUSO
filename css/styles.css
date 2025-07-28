@@ -1,0 +1,121 @@
+/* Fuente general */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #212529;
+}
+
+.hero {
+  background: linear-gradient(
+      rgba(0, 33, 71, 0.7),
+      rgba(0, 33, 71, 0.7)
+    ),
+    url('../assets/smartcities2.jpg') center/cover no-repeat;
+  height: 80vh;
+  padding-top: 120px;
+  padding-bottom: 80px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  color: #F0B400;
+  margin-bottom: 10px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.time-box {
+  padding: 10px;
+}
+
+.time-number {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.time-label {
+  font-size: 2rem;
+  color: #cccccc;
+}
+
+.btn-hero {
+  background-color: #00b5e2;
+  color: white;
+  border: none;
+}
+
+.btn-hero:hover {
+  background-color: #F0B400;
+  color: #212529;
+}
+
+
+/* Navbar */
+.navbar {
+  background-color: #002147 !important; /* Azul oscuro institucional */
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #F0B400; /* Dorado */
+}
+
+/* Sección de sponsors */
+.sponsor-logo {
+  max-height: 80px;
+  object-fit: contain;
+}
+
+/* Títulos */
+h2, h3 {
+  color: #0056b3; /* Azul medio */
+}
+
+/* Secciones alternas */
+.bg-light {
+  background-color: #f5f5f5 !important;
+}
+
+/* Botones */
+.btn-primary {
+  background-color: #002147;
+  border-color: #002147;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-light {
+  background-color: #00b5e2;
+  color: white;
+  border: none;
+}
+
+.btn-light:hover {
+  background-color: #F0B400;
+  color: #212529;
+}
+
+/* Footer */
+.footer {
+  background-color: #002147;
+  color: white;
+}
