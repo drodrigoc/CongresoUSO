@@ -58,7 +58,7 @@ body {
 
 /* Navbar */
 .navbar {
-  background-color: #002147 !important; /* Azul oscuro institucional */
+  background-color: #002147 !important; 
 }
 
 .navbar-brand img {
@@ -116,6 +116,5 @@ h2, h3 {
 
 /* Footer */
 .footer {
-  background-color: #002147;
-  color: white;
+  background-color: #002147 !important; 
 }
