@@ -120,6 +120,11 @@ h2, h3 {
   color: #0056b3; /* Azul medio */
 }
 
+p{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 /* Secciones alternas */
 .bg-light {
   background-color: #f5f5f5 !important;
@@ -151,4 +156,5 @@ h2, h3 {
 .footer {
   background-color: #002147 !important; 
 }
+
 
